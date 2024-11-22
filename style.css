@@ -180,7 +180,12 @@ body{
     gap: 10px;
     padding: 20px;
 }
-
+.grid-sport-news1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
 .main-sport-news-content1{
     width: 610px;
     height: 360px;
@@ -192,7 +197,7 @@ body{
 .position-title-sport-news{
     position: relative;
     bottom: 95px;
-    padding: 20px                                                               ;
+    padding: 20px;
 }
 
 .title-sport-news{
@@ -232,7 +237,88 @@ body{
     border-radius: 6px;
 }
 
-
+.title-sport-news-content{
+    font-size: 16px;
+    line-height: 26px;
+    color: #005689;
+    font-weight: bold;
+    padding: 20px;
+}
 .section-title-sport-news{
-        color: #5C2D91;
+    color: #5C2D91;
+}
+
+
+.technology-news{
+    height: 100%;
+    width: 100%;
+    background: white;
+    cursor: pointer;
+}
+.section-title-technology-news{
+    color: black;
+}
+
+
+.grid-technology-news{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    padding: 20px;
+}
+
+
+.main-sport-technology-news{
+    width: 600px;
+    height: 350px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.10);
+    cursor: pointer;
+}
+
+.image-technology{
+    border-radius: 6px;
+}
+
+.title-technology-news{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: start;
+    margin-bottom: 0px;
+}
+
+.position-title-technology-news{
+    position: relative;
+    bottom: 95px;
+    padding: 20px;
+}
+
+.date-title-technology-news{
+    color: #fea700;
+    font-size: 14px;
+}
+
+.technology-news-content{
+    background: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 6px;
+    color: #005689;
+    box-shadow: 10px 10px 12px rgba(0,0,0,.10);
+}
+
+
+.title-technology-news-content{
+    font-size: 16px;
+    line-height: 26px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.date-technology-news-content{
+    color: #fea700;
+    font-size: 14px;
 }
