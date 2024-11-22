@@ -9,10 +9,6 @@
 body{
     background-color: #f5f5f5;
 }
-
-.header{
-    height: 100vh;
-}
 /* ama main bar */
 .nav1 {
     cursor: pointer;
@@ -43,17 +39,19 @@ body{
 /* xwar main bar a mabastm main bara*/
 .catagorty{
     width: 100%;
-    height: 40px;
-    box-shadow: 0px 5px 10px 0px white;
+    height: 50px;
+    box-shadow:  0px 10px 12px rgba(0,0,0,.10);
     background: white;
     cursor: pointer;
+
 }
 
 .name-catagory{
-    padding: 10px;
+    padding: 15px;
     display: flex;
     justify-content: space-around;
-    align-content: center
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -144,9 +142,10 @@ body{
 
 
 .item-last-news{
-    width: 77%;
+    width: 79%;
+    
     background: white;
-    box-shadow: 2px 4px 12px rgba(0,0,0,.10);
+    box-shadow: 10px 10px 12px rgba(0,0,0,.10);
 }
 
 .last-news-content{
@@ -155,4 +154,85 @@ body{
     gap: 15px;
     justify-content: center;
     align-content: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.image-last-news1{
+    margin-right: 20px;
+    box-shadow: 10px 10px 12px rgba(0,0,0,.10);
+}
+/* background-color: #151820;
+     background: linear-gradient(90deg, #26282f 21px, transparent 1%) center, linear-gradient(#26282f 21px, transparent 1%) center, #757a88;
+*/
+
+
+
+.sport-news{
+    height: 100%;
+    width: 100%;
+    background: #26282f;
+}
+
+.grid-sport-news{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.main-sport-news-content1{
+    width: 610px;
+    height: 360px;
+    background: #26282f;
+    border-radius: 6px;
+    box-shadow: 15px 15px 15px rgba(0,0,0,.10);
+    cursor: pointer;
+}
+.position-title-sport-news{
+    position: relative;
+    bottom: 95px;
+    padding: 20px                                                               ;
+}
+
+.title-sport-news{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: start;
+    margin-bottom: 0px;
+}
+.date-title-sport-news{
+    color: #fea700;
+    font-size: 14px;
+}
+.title-sport-news{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.date-sport-news-content{
+    color: #fea700;
+    font-size: 14px;
+}
+
+.sport-news-content{
+    background: #26282f;
+    width: 305px;
+    height: 350px;
+    border-radius: 6px;
+    color: #005689;
+    box-shadow: 10px 10px 12px rgba(0,0,0,.10);
+}
+
+.image-sport{
+    border: solid;
+    border-width: 2px;
+    border-color: #fea700;
+    border-radius: 6px;
+}
+
+
+.section-title-sport-news{
+        color: #5C2D91;
 }
